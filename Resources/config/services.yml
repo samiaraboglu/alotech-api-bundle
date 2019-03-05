@@ -1,11 +1,11 @@
 services:
-    samiax_alotech_api.authentication:
-        class: Samiax\AloTechApiBundle\Service\Authentication
+    samiax_alo_tech_api.authentication:
+        class: AloTech\Authentication
         calls:
-            - [setUsername, [%samiax_alotech_api.username%]]
-            - [setAppToken, [%samiax_alotech_api.app_token%]]
+            - [setUsername, [%samiax_alo_tech_api.username%]]
+            - [setAppToken, [%samiax_alo_tech_api.app_token%]]
 
-    samiax_alotech_api.alotech:
-        class: Samiax\AloTechApiBundle\Service\Alotech
+    samiax_alo_tech_api.alotech:
+        class: AloTech\AloTech
         arguments:
-            - '@samiax_alotech_api.config'
+            - '@samiax_alo_tech_api.authentication'

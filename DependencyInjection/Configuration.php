@@ -18,7 +18,7 @@ class Configuration implements ConfigurationInterface
     public function getConfigTreeBuilder()
     {
         $treeBuilder = new TreeBuilder();
-        $rootNode = $treeBuilder->root('samiax_alotech_api');
+        $rootNode = $treeBuilder->root('samiax_alo_tech_api');
 
         $rootNode
             ->children()

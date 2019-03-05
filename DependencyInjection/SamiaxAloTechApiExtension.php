@@ -22,8 +22,8 @@ class SamiaxAloTechApiExtension extends Extension
         $configuration = new Configuration();
         $config = $this->processConfiguration($configuration, $configs);
 
-        $container->setParameter('samiax_alotech_api.username', $config['username']);
-        $container->setParameter('samiax_alotech_api.app_token', $config['app_token']);
+        $container->setParameter('samiax_alo_tech_api.username', $config['username']);
+        $container->setParameter('samiax_alo_tech_api.app_token', $config['app_token']);
 
         $loader = new Loader\YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
