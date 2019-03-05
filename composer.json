@@ -1,0 +1,30 @@
+{
+    "name": "samiaraboglu/alotech-api-bundle",
+    "type": "symfony-bundle",
+    "description": "Symfony AloTech Api Bundle",
+    "keywords": ["symfony", "alotech", "api", "symfony-bundle", "alotech"],
+    "homepage": "https://github.com/samiaraboglu/alotech-api-bundle",
+    "license": "MIT",
+    "authors": [
+        {
+          "name": "Sami Araboğlu",
+          "email": "samiaraboglu@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.5",
+        "symfony/framework-bundle": "^3.0|^4.0",
+        "samiaraboglu/alotech-php-api": "dev-master"
+    },
+    "require-dev": {
+
+    },
+    "suggest": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "Samiax\\AlotechApiBundle\\": ""
+        }
+    }
+}
