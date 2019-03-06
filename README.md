@@ -41,7 +41,7 @@ samiax_alo_tech_api:
 
 ```php
 /**
- * @Route("/alotech/click2call/call", name="alotech/click2call/call")
+ * @Route("/alotech/click2/call", name="alotech/click2/call")
  */
 public function callAction(Request $request)
 {
@@ -49,7 +49,7 @@ public function callAction(Request $request)
 
     $service->login('{EMAIL}');
 
-    $service->click2Call->call([
+    $service->click2->call([
         'phonenumber' => '{PHONE_NUMBER}',
         'hangup_url' => '{YOUR_HANGUP_URL}'
     ]);
