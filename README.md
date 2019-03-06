@@ -49,7 +49,10 @@ public function callAction(Request $request)
 
     $service->login('{EMAIL}');
 
-    $service->click2Call->call('{PHONE_NUMBER}');
+    $service->click2Call->call([
+        'phonenumber' => '{PHONE_NUMBER}',
+        'hangup_url' => '{YOUR_HANGUP_URL}'
+    ]);
 
     return new Response();
 }
