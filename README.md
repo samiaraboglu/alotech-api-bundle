@@ -1,5 +1,9 @@
 # alotech-api-bundle
 
+[![Latest Stable Version](https://poser.pugx.org/samiaraboglu/alotech-api-bundle/v/stable)](https://packagist.org/packages/samiaraboglu/alotech-api-bundle)
+[![Total Downloads](https://poser.pugx.org/samiaraboglu/alotech-api-bundle/downloads)](https://packagist.org/packages/samiaraboglu/alotech-api-bundle)
+[![License](https://poser.pugx.org/samiaraboglu/alotech-api-bundle/license)](https://packagist.org/packages/samiaraboglu/alotech-api-bundle)
+
 Use the [AloTech PHP API](https://github.com/samiaraboglu/alotech-php-api).
 
 ### Download the Bundle
